@@ -2,7 +2,7 @@ var express = require('express');
 var router = express.Router();
 
 /* GET users listing. */
-router.get('/photos', function (req, res, next) {
+router.get('/photosForAccount', function (req, res, next) {
   res.json(
     {
       "schools": [
